@@ -1,0 +1,105 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  display: flex;
+  width: 100vw;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+table, tr, td, th{
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+
+table, tr, td, th{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+td:nth-child(even) {
+    background-color: #F7F7F7;
+    color: black;
+  }
+
+tr:nth-child(6){
+    border-bottom: 2px solid #CCCCCC;
+}
+
+tr:nth-child(18){
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.color1{
+color: #003366;
+}
+
+.color2{
+    color: #1398BE;
+}
+
+.color3{
+    color: #DE9800;
+}
+
+.color4{
+    color: #CCCCCC;
+}
+
+.color5{
+    color: #C91B04;
+}
+
+.time{
+    display: flex;
+    justify-content: baseline;
+
+}
+
+.text{
+    width: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.color1{
+    text-align: center;
+    background-color: red;
+}
+
+.col-1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    color: #999999;
+    width: 45px;
+}
+
+span{
+    display: flex;
+    justify-content: left;
+    width: 270px;
+    height: 20px;
+}
+
+.borda-teste{
+    border: 2px black;
+}
+
+.pontos{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.container tr .text-footer{
+    text-align: left;
+    color: #8F8F8F;
+    font-size: 10px;
+    padding: 8px;
+}
